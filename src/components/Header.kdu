@@ -1,0 +1,10 @@
+<template>
+  <header>
+    <a href="/" class="logo"><img src="../assets/logo.png"></a>
+    <ul>
+      <li><a href="/" class="active">Home</a></li>
+      <li><a href="/privacy.txt">Privacy</a></li>
+      <li><a href="//github.com/khanhduy1407/nkduy-scanner-site/issues/new">Issues</a></li>
+    </ul>
+  </header>
+</template>

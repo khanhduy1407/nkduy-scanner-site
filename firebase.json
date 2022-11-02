@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "nkduy-scanner",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

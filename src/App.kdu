@@ -1,0 +1,28 @@
+<template>
+  <section class="main">
+    <Header/>
+
+    <ContentBx/>
+    
+    <Sci/>
+  </section>
+</template>
+
+<script>
+import Header from "./components/Header.kdu";
+import ContentBx from "./components/ContentBx.kdu";
+import Sci from "./components/Sci.kdu";
+
+export default {
+  name: 'App',
+  components: {
+    Header,
+    ContentBx,
+    Sci
+  }
+}
+</script>
+
+<style>
+@import './assets/style.css';
+</style>

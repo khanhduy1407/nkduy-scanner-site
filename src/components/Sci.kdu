@@ -1,0 +1,8 @@
+<template>
+  <ul class="sci">
+    <li><a href="mailto:kn145660@gmail.com"><nav-icon name="mail-open"></nav-icon></a></li>
+    <li><a href="//www.facebook.com/khanhduy1407"><nav-icon name="logo-facebook"></nav-icon></a></li>
+    <li><a href="//www.instagram.com/dygameryt"><nav-icon name="logo-instagram"></nav-icon></a></li>
+    <li><a href="//github.com/khanhduy1407"><nav-icon name="logo-github"></nav-icon></a></li>
+  </ul>
+</template>

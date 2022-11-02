@@ -1,0 +1,22 @@
+{
+  "name": "nkduy-scanner-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "kdu-cli-service serve",
+    "build": "kdu-cli-service build",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "dependencies": {
+    "kdu": "^3.2.37-alpha.1"
+  },
+  "devDependencies": {
+    "@kdujs/cli-service": "~5.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
