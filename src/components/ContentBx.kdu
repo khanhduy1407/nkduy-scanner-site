@@ -4,7 +4,7 @@
       <h2>NKDuy Scanner</h2>
       <p>NKDuy Scanner is an Android app for scanning QR codes and barcodes.</p>
       <h4>Download the app</h4>
-      <a href="#" class="btn" target="_blank"><nav-icon name="logo-google-playstore"></nav-icon> Play Store</a>
+      <a href="https://play.google.com/store/apps/details?id=com.nkduy.scanner" class="btn" target="_blank"><nav-icon name="logo-google-playstore"></nav-icon> Play Store</a>
     </div>
 
     <div class="imgBx">
