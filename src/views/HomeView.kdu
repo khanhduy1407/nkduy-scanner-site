@@ -1,0 +1,36 @@
+<script setup>
+import { ref } from 'kdu';
+
+import ContentBx from '../components/ContentBx.kdu'
+import Sci from '../components/Sci.kdu';
+
+const imgSrc = ref([
+  { url: "preview_1.png" },
+  { url: "preview_2.png" },
+  { url: "preview_3.png" },
+  { url: "preview_4.png" },
+  { url: "preview_5.png" },
+  { url: "preview_6.png" },
+  { url: "preview_7.png" },
+]);
+
+const urls = ref([
+  { link: "mailto:example@gmail.com", icon: "mail-open" },
+  { link: "https://www.facebook.com/", icon: "logo-facebook" },
+  { link: "https://github.com/", icon: "logo-github" },
+]);
+</script>
+
+<template>
+  <ContentBx
+    appName="Kdu Scanner"
+    description="QR and barcode scanner with all the features you need in Kdu Scanner."
+    playStoreLink="https://play.google.com/store/apps/details?id=com.nkduy.scanner"
+    appleStoreLink=""
+    :imgSrc="imgSrc"
+  />
+
+  <Sci
+    :urls="urls"
+  />
+</template>
